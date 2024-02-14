@@ -69,7 +69,7 @@ function Projects({}: Props) {
                         alt="image"
                         width={500}
                         height={500}
-                        className=" object-cover rounded-md"
+                        className=" object-cover rounded-md w-full"
                       />
                     </motion.div>
                   </Link>
