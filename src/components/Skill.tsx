@@ -126,7 +126,7 @@ function Skill({ directionLeft }: Props) {
     },
   ];
   return (
-    <div className=" w-2/3 flex flex-wrap gap-4">
+    <div className=" w-2/3 flex flex-wrap gap-4 justify-center">
       {skillsDetail.map(({ name, src, profieciency }) => {
         return (
           <div className="group relative flex cursor-pointer" key={name}>
@@ -142,7 +142,7 @@ function Skill({ directionLeft }: Props) {
             />
             <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-out group-hover:bg-white h-4 w-4  md:w-14 md:h-14   rounded-full z-0">
               <div className="flex items-center justify-center h-full">
-                <p className="text-xl font-bold text-black opacity-100">
+                <p className="text-[0.5rem] md:text-xl  font-bold text-black opacity-100">
                   {profieciency}
                 </p>
               </div>

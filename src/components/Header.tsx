@@ -15,7 +15,7 @@ export default function Header({}: Props) {
         className="flex flex-row items-center gap-3"
       >
         <SocialIcon
-          url="https://twitter.com/SumanBh39706321"
+          url="https://twitter.com/Bhandari_138"
           fgColor="gray"
           bgColor="transparant"
           style={{ height: 40, width: 40 }}
